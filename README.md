@@ -16,7 +16,7 @@ AI_PhishGuard/
 ├── backend/
 
 │ ├── main.py # FastAPI backend (prediction API)
-|
+
 │ ├── train_model.py # Model training pipeline
 |
 │ └── models/ # Generated ML models (created after training)
