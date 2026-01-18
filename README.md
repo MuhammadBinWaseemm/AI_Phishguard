@@ -14,25 +14,25 @@ The system provides **accurate predictions with human-readable explanations** an
 AI_PhishGuard/
 
 ├── backend/
-  |
+  
 │ ├── main.py # FastAPI backend (prediction API)
 
 │ ├── train_model.py # Model training pipeline
-|
+
 │ └── models/ # Generated ML models (created after training)
-│
+
 ├── frontend/ # Node.js frontend (npm-based)
-|
+
 │ ├── node_modules/
-|
+
 │ ├── package.json
-|
+
 │ └── ...
-│
+
 ├── .gitignore
-|
+
 ├── README.md
-|
+
 └── requirements.txt (optional but recommended)
 
 
