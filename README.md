@@ -12,7 +12,7 @@ The system provides **accurate predictions with human-readable explanations** an
 ## 📁 Project Structure
 
 AI_PhishGuard/
-│
+
 ├── backend/
 
 │ ├── main.py # FastAPI backend (prediction API)
