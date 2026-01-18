@@ -46,17 +46,16 @@ Make sure you have the following installed:
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/MuhammadBinWaseemm/AI_Phishguard.git
 cd AI_Phishguard
-2️⃣ Create and Activate Python Virtual Environment (venv)
+### 2️⃣ Create and Activate Python Virtual Environment (venv)
 On Windows (PowerShell)
 python -m venv venv
 venv\Scripts\activate
 On Linux / macOS
 python3 -m venv venv
 source venv/bin/activate
-3️⃣ Install Required Python Libraries
+### 3️⃣ Install Required Python Libraries
 Install the required dependencies manually (or via requirements.txt if provided):
 
 pip install fastapi uvicorn numpy pandas scikit-learn imbalanced-learn
@@ -66,7 +65,8 @@ pip install <library-name>
 Example:
 
 pip install scikit-learn
-4️⃣ Train the Machine Learning Models (IMPORTANT)
+
+### 4️⃣ Train the Machine Learning Models (IMPORTANT)
 Before running the API, you must train the models first.
 
 cd backend
@@ -81,7 +81,7 @@ Save trained .pkl files automatically
 
 ✅ Wait until you see “Training Complete!”
 
-5️⃣ Run the FastAPI Backend
+### 5️⃣ Run the FastAPI Backend
 python main.py
 OR (recommended):
 
@@ -92,7 +92,8 @@ http://127.0.0.1:8000
 API Docs (Swagger UI):
 
 http://127.0.0.1:8000/docs
-6️⃣ Run the Frontend (Node.js)
+
+### 6️⃣ Run the Frontend (Node.js)
 Open a new terminal, navigate to the frontend folder:
 
 cd frontend
